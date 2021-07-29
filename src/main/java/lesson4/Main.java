@@ -5,7 +5,6 @@ import java.util.HashMap;
 public class Main {
     public static void main(String[] args) {
         String[] words = {"one", "two", "three", "five", "five", "six", "seven", "eight", "nine", "nine"};
-
         HashMap<String, Integer> wordCount = new HashMap<>();
 
         for (int i = 0; i < words.length; i++) {
